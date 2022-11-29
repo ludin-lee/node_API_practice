@@ -4,6 +4,7 @@ const port = 5000;
 const postsRouter = require("./routes/posts");
 const commentsRouter = require("./routes/comments");
 const connect = require("./schemas/index.js");
+
 connect();
 
 app.use(express.json());
